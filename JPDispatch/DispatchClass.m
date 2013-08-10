@@ -15,6 +15,7 @@ static DispatchClass *_sharedObj;
 
 + (id)sharedObject
 {
+    
     if(!_sharedObj)
      _sharedObj = [[self alloc]init];
     return _sharedObj;
